@@ -463,11 +463,12 @@ html, body {
   }
 
   code {
-    background-color: #262626;
+    background-color: #F5F5F5;
     padding: 3px;
     border-radius: 3px;
     @extend %break-words;
     @extend %code-font;
+    color: #F26D79;
   }
 
   pre>code {
@@ -478,7 +479,7 @@ html, body {
   aside {
     padding-top: 1em;
     padding-bottom: 1em;
-    text-shadow: 0 1px 0 lighten($aside-notice-bg, 15%);
+    text-shadow: 0 0px 0 lighten($aside-notice-bg, 15%);
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     background: $aside-notice-bg;
@@ -534,7 +535,11 @@ html, body {
     color: #fff;
 
     padding: 2em $main-padding;
+    padding-bottom: 4em;
+    padding-top: 2em;
     margin: 0;
+    margin-top: -70px;
+    margin-bottom: 15px;
     width: $examples-width;
 
     float:right;
