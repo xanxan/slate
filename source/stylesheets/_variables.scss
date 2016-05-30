@@ -23,17 +23,17 @@ under the License.
 
 // BACKGROUND COLORS
 ////////////////////
-$nav-bg: #393939;
+$nav-bg: #f5f5f5;
 $examples-bg: #393939;
 $code-bg: #292929;
 $code-annotation-bg: #1c1c1c;
-$nav-subitem-bg: #262626;
-$nav-active-bg: #2467af;
+$nav-subitem-bg: #d8d8da;
+$nav-active-bg: #F26D79;
 $lang-select-border: #000;
 $lang-select-bg: #222;
 $lang-select-active-bg: $examples-bg; // feel free to change this to blue or something
 $lang-select-pressed-bg: #111; // color of language tab bg when mouse is pressed
-$main-bg: #eaf2f6;
+$main-bg: #3A3A3C;
 $aside-notice-bg: #8fbcd4;
 $aside-warning-bg: #c97a7e;
 $aside-success-bg: #6ac174;
@@ -42,8 +42,8 @@ $search-notice-bg: #c97a7e;
 
 // TEXT COLORS
 ////////////////////
-$main-text: #333; // main content text color
-$nav-text: #fff;
+$main-text: #F5F5F5; // main content text color
+$nav-text: #393939;
 $nav-active-text: #fff;
 $lang-select-text: #fff; // color of unselected language tab text
 $lang-select-active-text: #fff; // color of selected language tab text
@@ -69,7 +69,7 @@ $phone-width: $tablet-width - $nav-width; // min width before reverting to mobil
 ////////////////////
 %default-font {
   font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 %header-font {
@@ -88,9 +88,9 @@ $phone-width: $tablet-width - $nav-width; // min width before reverting to mobil
 ////////////////////
 $nav-active-shadow: #000;
 $nav-footer-border-color: #666;
-$nav-embossed-border-top: #000;
-$nav-embossed-border-bottom: #939393;
-$main-embossed-text-shadow: 0px 1px 0px #fff;
+$nav-embossed-border-top: #bdbdc1;
+$nav-embossed-border-bottom: #bdbdc1;
+$main-embossed-text-shadow: 0px 0px 0px #666;
 $search-box-border-color: #666;
 
 

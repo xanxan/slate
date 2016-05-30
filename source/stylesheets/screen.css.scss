@@ -41,15 +41,15 @@ html, body {
 
 #toc > ul > li > a > span {
   float: right;
-  background-color: #2484FF;
+  background-color: #F26D79;
   border-radius: 40px;
   width: 20px;
 }
 
 @mixin embossed-bg {
   background:
-    linear-gradient(to bottom, rgba(#000, 0.2), rgba(#000, 0) 8px),
-    linear-gradient(to top, rgba(#000, 0.2), rgba(#000, 0) 8px),
+    linear-gradient(to bottom, rgba(#bdbdc1, 0.2), rgba(#bdbdc1, 0) 8px),
+    linear-gradient(to top, rgba(#bdbdc1, 0.2), rgba(#bdbdc1, 0) 8px),
     linear-gradient(to bottom, rgba($nav-embossed-border-top, 1), rgba($nav-embossed-border-top, 0) 1.5px),
     linear-gradient(to top, rgba($nav-embossed-border-bottom, 1), rgba($nav-embossed-border-bottom, 0) 1.5px),
     $nav-subitem-bg;
@@ -358,11 +358,11 @@ html, body {
     font-size: 30px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #292929;
     margin-bottom: $h1-margin-bottom;
     margin-top: 2em;
-    border-top: 1px solid #ddd;
-    background-image: linear-gradient(to bottom, #fff, #f9f9f9);
+    border-top: 1px solid #292929;
+    background-image: linear-gradient(to bottom, #222222, #292929);
   }
 
   h1:first-child, div:first-child + h1 {
@@ -375,10 +375,10 @@ html, body {
     font-size: 20px;
     margin-top: 4em;
     margin-bottom: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #292929;
     padding-top: 1.2em;
     padding-bottom: 1.2em;
-    background-image: linear-gradient(to bottom, rgba(#fff, 0.4), rgba(#fff, 0));
+    background-image: linear-gradient(to bottom, rgba(#292929, 0.4), rgba(#292929, 0));
   }
 
   // h2s right after h1s should bump right up
@@ -397,6 +397,10 @@ html, body {
 
   h4, h5, h6 {
     font-size: 10px;
+  }
+
+  li a {
+    color: #F26D79;
   }
 
   hr {
@@ -435,6 +439,10 @@ html, body {
     tr:nth-child(even)>td {
       background-color: lighten($main-bg,2.4%);
     }
+
+    a {
+      color: #F26D79;
+    }
   }
 
   dt {
@@ -455,7 +463,7 @@ html, body {
   }
 
   code {
-    background-color: rgba(0,0,0,0.05);
+    background-color: #262626;
     padding: 3px;
     border-radius: 3px;
     @extend %break-words;
